@@ -1,0 +1,55 @@
+"place","pop2023","growthRate","area","country","cca3","cca2","ccn3","region","subregion","landAreaKm","density","densityMi","Rank","gniLatest","rank"
+566,223804632,0.02408,923768,"Nigeria","NGA","NG",566,"Africa","Western Africa, Sub-Saharan Africa",910770,245.7312,636.4439,6,2000,1
+231,126527060,0.02551,1104300,"Ethiopia","ETH","ET",231,"Africa","Eastern Africa, Sub-Saharan Africa",1128571.3,112.1126,290.3716,11,890,2
+818,112716598,0.01556,1002450,"Egypt","EGY","EG",818,"Africa","Northern Africa, The Middle East",995450,113.2318,293.2704,14,3000,3
+180,102262808,0.03285,2344858,"DR Congo","COD","CD",180,"Africa","Middle Africa, Sub-Saharan Africa",2267050,45.1083,116.8305,15,550,4
+834,67438106,0.02963,945087,"Tanzania","TZA","TZ",834,"Africa","Eastern Africa, Sub-Saharan Africa",885800,76.1324,197.183,22,1080,5
+710,60414495,0.00869,1221037,"South Africa","ZAF","ZA",710,"Africa","Southern Africa, Sub-Saharan Africa",1213090,49.8022,128.9876,24,5410,6
+404,55100586,0.01986,580367,"Kenya","KEN","KE",404,"Africa","Eastern Africa, Sub-Saharan Africa",569140,96.8138,250.7477,26,1760,7
+800,48582334,0.02821,241550,"Uganda","UGA","UG",800,"Africa","Eastern Africa, Sub-Saharan Africa",200520,242.2817,627.5097,30,800,8
+729,48109006,0.02634,1886068,"Sudan","SDN","SD",729,"Africa","Northern Africa",1868000,25.7543,66.7036,31,650,9
+12,45606480,0.01566,2381741,"Algeria","DZA","DZ",12,"Africa","Northern Africa",2381741,19.1484,49.5943,34,3550,10
+504,37840044,0.0102,446550,"Morocco","MAR","MA",504,"Africa","Northern Africa",446300,84.7861,219.596,39,2980,11
+24,36684202,0.03077,1246700,"Angola","AGO","AO",24,"Africa","Middle Africa, Sub-Saharan Africa",1246700,29.425,76.2109,42,2230,12
+288,34121985,0.0193,238533,"Ghana","GHA","GH",288,"Africa","Western Africa, Sub-Saharan Africa",227533,149.965,388.4093,47,2230,13
+508,33897354,0.02814,801590,"Mozambique","MOZ","MZ",508,"Africa","Eastern Africa, Sub-Saharan Africa",786380,43.1056,111.6434,48,460,14
+450,30325732,0.02411,587041,"Madagascar","MDG","MG",450,"Africa","Eastern Africa, Sub-Saharan Africa",581800,52.124,135.0011,50,480,15
+384,28873034,0.0253,322463,"Ivory Coast","CIV","CI",384,"Africa","Western Africa, Sub-Saharan Africa",318000,90.7957,235.1609,51,2280,16
+120,28647293,0.02625,475442,"Cameroon","CMR","CM",120,"Africa","Middle Africa, Sub-Saharan Africa",472710,60.6023,156.9598,53,1500,17
+562,27202843,0.03796,1267000,"Niger","NER","NE",562,"Africa","Western Africa, Sub-Saharan Africa",1266700,21.4754,55.6212,54,540,18
+466,23293698,0.03099,1240192,"Mali","MLI","ML",466,"Africa","Western Africa, Sub-Saharan Africa",1220190,19.0902,49.4437,58,830,19
+854,23251485,0.02548,272967,"Burkina Faso","BFA","BF",854,"Africa","Western Africa, Sub-Saharan Africa",273600,84.9835,220.1073,59,790,20
+454,20931751,0.0258,118484,"Malawi","MWI","MW",454,"Africa","Eastern Africa, Sub-Saharan Africa",94280,222.0169,575.0237,62,580,21
+894,20569737,0.02758,752612,"Zambia","ZMB","ZM",894,"Africa","Eastern Africa, Sub-Saharan Africa",743390,27.6702,71.6658,63,1190,22
+148,18278568,0.03133,1284000,"Chad","TCD","TD",148,"Africa","Middle Africa, Sub-Saharan Africa",1259200,14.516,37.5965,67,660,23
+706,18143378,0.03102,637657,"Somalia","SOM","SO",706,"Africa","Eastern Africa, Sub-Saharan Africa",627340,28.9211,74.9057,69,310,24
+686,17763163,0.0258,196722,"Senegal","SEN","SN",686,"Africa","Western Africa, Sub-Saharan Africa",192530,92.2618,238.958,71,1430,25
+716,16665409,0.02113,390757,"Zimbabwe","ZWE","ZW",716,"Africa","Eastern Africa, Sub-Saharan Africa",386850,43.0798,111.5766,74,1090,26
+324,14190612,0.0239,245857,"Guinea","GIN","GN",324,"Africa","Western Africa, Sub-Saharan Africa",245720,57.7511,149.5755,75,1020,27
+646,14094683,0.02308,26338,"Rwanda","RWA","RW",646,"Africa","Eastern Africa, Sub-Saharan Africa",24670,571.3289,1479.7417,76,780,28
+204,13712828,0.02696,112622,"Benin","BEN","BJ",204,"Africa","Western Africa, Sub-Saharan Africa",112760,121.6107,314.9718,77,1280,29
+108,13238559,0.02708,27834,"Burundi","BDI","BI",108,"Africa","Eastern Africa, Sub-Saharan Africa",25680,515.5202,1335.1973,78,270,30
+788,12458223,0.00826,163610,"Tunisia","TUN","TN",788,"Africa","Northern Africa",155360,80.1894,207.6905,79,3100,31
+728,11088796,0.01609,619745,"South Sudan","SSD","SS",728,"Africa","Middle Africa, Sub-Saharan Africa",631930,17.5475,45.448,86,1090,32
+768,9053799,0.02318,56785,"Togo","TGO","TG",768,"Africa","Western Africa, Sub-Saharan Africa",54390,166.4607,431.1333,99,920,33
+694,8791092,0.02154,71740,"Sierra Leone","SLE","SL",694,"Africa","Western Africa, Sub-Saharan Africa",72180,121.794,315.4465,102,490,34
+434,6888388,0.01116,1759540,"Libya","LBY","LY",434,"Africa","Northern Africa",1759540,3.9149,10.1395,107,4850,35
+178,6106869,0.02285,342000,"Republic of the Congo","COG","CG",178,"Africa","Middle Africa, Sub-Saharan Africa",341500,17.8825,46.3156,113,1830,36
+140,5742315,0.02925,622984,"Central African Republic","CAF","CF",140,"Africa","Middle Africa, Sub-Saharan Africa",622980,9.2175,23.8733,117,510,37
+430,5418377,0.02182,111369,"Liberia","LBR","LR",430,"Africa","Western Africa, Sub-Saharan Africa",96320,56.2539,145.6976,120,530,38
+478,4862989,0.02678,1030700,"Mauritania","MRT","MR",478,"Africa","Western Africa, Sub-Saharan Africa",1030700,4.7181,12.22,126,1640,39
+232,3748901,0.01761,117600,"Eritrea","ERI","ER",232,"Africa","Eastern Africa, Sub-Saharan Africa",121040.8,30.9722,80.218,131,510,40
+270,2773168,0.02483,10689,"Gambia","GMB","GM",270,"Africa","Western Africa, Sub-Saharan Africa",10120,274.0285,709.7337,141,750,41
+72,2675352,0.01713,582000,"Botswana","BWA","BW",72,"Africa","Southern Africa, Sub-Saharan Africa",566730,4.7207,12.2266,144,6640,42
+516,2604172,0.01448,825615,"Namibia","NAM","NA",516,"Africa","Southern Africa, Sub-Saharan Africa",823290,3.1631,8.1925,145,4520,43
+266,2436566,0.01991,267668,"Gabon","GAB","GA",266,"Africa","Middle Africa, Sub-Saharan Africa",257670,9.4561,24.4914,146,6970,44
+426,2330318,0.01062,30355,"Lesotho","LSO","LS",426,"Africa","Southern Africa, Sub-Saharan Africa",30360,76.7562,198.7985,147,1100,45
+624,2150842,0.0215,36125,"Guinea-Bissau","GNB","GW",624,"Africa","Western Africa, Sub-Saharan Africa",28120,76.488,198.1039,148,760,46
+226,1714671,0.02374,28051,"Equatorial Guinea","GNQ","GQ",226,"Africa","Middle Africa, Sub-Saharan Africa",28050,61.1291,158.3243,152,5810,47
+480,1300557,0.00084,2040,"Mauritius","MUS","MU",480,"Africa","Eastern Africa, Sub-Saharan Africa",2030,640.6685,1659.3313,157,10230,48
+748,1210822,0.00762,17364,"Eswatini","SWZ","SZ",748,"Africa","Southern Africa, Sub-Saharan Africa",17200,70.3966,182.3273,159,3580,49
+262,1136455,0.01392,23200,"Djibouti","DJI","DJ",262,"Africa","Eastern Africa, Sub-Saharan Africa",23180,49.0274,126.981,160,3320,50
+174,852075,0.01829,1862,"Comoros","COM","KM",174,"Africa","Eastern Africa, Sub-Saharan Africa",1861,457.8587,1185.854,163,1450,51
+132,598682,0.00933,4033,"Cape Verde","CPV","CV",132,"Africa","Western Africa, Sub-Saharan Africa",4033,148.4458,384.4747,171,,52
+678,231856,0.01969,964,"Sao Tome and Principe","STP","ST",678,"Africa","Middle Africa, Sub-Saharan Africa",960,241.5167,625.5282,187,2070,53
+690,107660,0.00506,452,"Seychelles","SYC","SC",690,"Africa","Eastern Africa, Sub-Saharan Africa",460,234.0435,606.1726,197,12720,54
