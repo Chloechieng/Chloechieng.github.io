@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 350,
+  "config": {
+    "background": "white",
+    "view": {"stroke": "transparent"},
+    "padding": {"top": 6}
+  },
+  "title": {
+    "text": "Female Population in Africa",
+    "fontSize": 15,
+    "subtitle": "Total Percentage of Female Population in 2020. Source: https://ourworldindata.org/gender-ratio",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/custom.geo.json",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "naturalEarth1"},
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/I%20hope%20this%20work.csv"
+        },
+        "key": "Entity",
+        "fields": ["Population, female (% of total population)"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "lavender", "strokeWidth": 1.2},
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Entity"},
+      {
+        "field": "Population, female (% of total population)",
+        "title": "Total Female Population (%)"
+      }
+    ],
+    "color": {
+      "field": "Population, female (% of total population)",
+      "type": "quantitative",
+      "legend": {"orient": "bottom-left", "direction": "horizontal"},
+      "scale": {"scheme": "purples", "reverse": false}
+    }
+  }
+}

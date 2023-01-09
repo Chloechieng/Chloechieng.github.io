@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "title": {
+    "text": " Poorest Countries in the Wrold",
+    "anchor": "start",
+    "subtitle": "Top 20 Poorest Countries based upon their 2020 GNI per capita in current US$, Source: WorldBank",
+    "align": "left",
+    "subtitleFontSize": 9,
+    "subtitleFontStyle": "italic"
+  },
+  "data": {
+    "values": [
+      {"Rank": 1, "Country": "Burundi", "International $": 771},
+      {"Rank": 2, "Country": "Central African Rep.", "International $": 988},
+      {"Rank": 3, "Country": "DR Congo", "International $": 1142},
+      {"Rank": 4, "Country": "South Sudan**", "International $": 1235},
+      {"Rank": 5, "Country": "Somalia", "International $": 1246},
+      {"Rank": 6, "Country": "Niger", "International $": 1288},
+      {"Rank": 7, "Country": "Mozambique", "International $": 1297},
+      {"Rank": 8, "Country": "Liberia", "International $": 1468},
+      {"Rank": 9, "Country": "Madagascar", "International $": 1544},
+      {"Rank": 10, "Country": "Malawi", "International $": 1592},
+      {"Rank": 11, "Country": "Chad", "International $": 1602},
+      {"Rank": 12, "Country": "Eritrea****", "International $": 1626},
+      {"Rank": 13, "Country": "Sierra Leone", "International $": 1727},
+      {"Rank": 14, "Country": "Guinea-Bissau", "International $": 1949},
+      {"Rank": 15, "Country": "Afghanistan", "International $": 2079},
+      {"Rank": 16, "Country": "Rwanda", "International $": 2214},
+      {"Rank": 17, "Country": "Togo", "International $": 2223},
+      {"Rank": 18, "Country": "Burkina Faso", "International $": 2274},
+      {"Rank": 19, "Country": "Gambia, The", "International $": 2275},
+      {"Rank": 20, "Country": "Uganda", "International $": 2294}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "International $",
+      "type": "quantitative",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {"field": "Country", "type": "ordinal", "sort": "quantitative"},
+    "color": {"value": " #C3B1E1"}
+  },
+  "config": {}
+}
