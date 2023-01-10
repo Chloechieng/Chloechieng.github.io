@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 260,
+  "width": 600,
+  "title": {
+    "text": "Does the Amount of Fossil Fuel Financed by Bank affect Banks' Market Capital?",
+    "subtitle": "Evaluating How the Amount Financed to Fossil Fuel Companies Affects Banks' Market Capital (2016-2019)",
+    "fontSize": 13,
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "#000000",
+    "subtitleColor": "#000000"
+  },
+  "params": [
+    {
+      "name": "Select",
+      "value": "2016",
+      "bind": {
+        "input": "select",
+        "options": ["2016", "2017", "2018", "2019", "2020", "2021"]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/bankfinancevperformance.json",
+        "format": {"type": "json", "property": "years"}
+      },
+      "transform": [
+        {"calculate": "datum[Select]", "as": "varSelected"},
+        {"calculate": "datum[2016]", "as": "2016"},
+        {"calculate": "datum[2017]", "as": "2017"},
+        {"calculate": "datum[2018]", "as": "2018"},
+        {"calculate": "datum[2019]", "as": "2019"},
+        {"calculate": "datum[2020]", "as": "2020"},
+        {"calculate": "datum[2021]", "as": "2021"}
+      ],
+      "mark": {"type": "circle", "size": 60, "color": "purple", "filled": true},
+      "encoding": {
+        "x": {
+          "field": "varSelected",
+          "type": "nominal",
+          "title": "Amount Financed to Fossil Fuel ($)",
+          "axis": {"labelAngle": 0},
+          "sort": "ascending"
+        },
+        "y": {
+          "field": "marketcap",
+          "type": "quantitative",
+          "title": "Banks' Market Capital ($billions)"
+        },
+        "color": {"field": "Bank", "type": "nominal"},
+        "tooltip": [
+          {"field": "Bank", "type": "nominal", "title": "Banks"},
+          {
+            "field": "marketcap",
+            "type": "quantitative",
+            "title": "Bank's Market Cap"
+          },
+          {
+            "field": "varSelected",
+            "type": "ordinal",
+            "title": "Financed to Oil and Gas by Banks"
+          }
+        ]
+      }
+    }
+  ],
+  "autosize": {"type": "pad", "contains": "padding", "resize": true},
+  "config": {}
+}

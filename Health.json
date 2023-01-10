@@ -1,0 +1,21 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Mean of UK Citizens' Heath Across Time",
+      "subtitle": "since 2011, Source: https://github.com/RDeconomist/RDeconomist.github.io",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "color": "black"
+    },
+    "description": "Stock prices of 5 Tech Companies over Time.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/youGov_issues.csv"
+    },
+    "mark": {"type": "line", "point": {"filled": false, "fill": "white"}},
+    "encoding": {
+      "x": {"timeUnit": "year", "field": "date"},
+      "y": {"aggregate": "mean", "field": "Health", "type": "quantitative"},
+      "color": {"field": "symbol", "type": "nominal"}
+    },
+    "config": {}
+  }

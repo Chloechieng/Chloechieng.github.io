@@ -1,0 +1,166 @@
+/* Homepage Design*/
+
+/* FONTS: */
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap'); 
+
+
+
+
+
+h1{
+    font-family: 'Open', sans-serif;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: #faeae600;
+}
+
+p{
+    font-family: 'Open', sans-serif;
+    text-align: center;
+    font-size: larger;
+    color:rgb(255, 255, 255);
+    background-color: #faeae600;
+}
+
+p1{
+    font-family: 'Open', sans-serif;
+    text-align: center;
+    font-size: small;
+    color:rgb(62, 49, 85);
+  
+ 
+}
+
+
+/* Page Area */
+
+body{
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+/* Buttons */
+
+.link{
+    background-color: #faeae600;
+
+    padding:10px;
+    
+    border:2px;
+    border-color:rgb(141, 114, 193);
+    border-style: solid;
+    border-radius: 30px;
+    text-align: center;
+
+    font-family: 'Open';
+    
+    color:rgb(247, 255, 226);
+    text-decoration: none;
+
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: auto;
+}
+
+.link:hover{
+
+    background-color: #ffa8f87c;
+
+    border:2px;
+    border-color:rgb(242, 255, 216);
+    border-style: solid;
+    
+}
+
+.intro{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: rgb(74, 73, 73);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.discription-col{
+    margin: auto;
+    width: 350px;
+    height: 300px;
+    background: rgba(243, 237, 239, 0.332);
+    border-radius: 0px;
+    margin-bottom: 10%;
+    padding: 0px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.discription-col:hover{
+    box-shadow: 0 0 20px 0px rgba(237, 255, 102, 0.986);
+
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .footer h1{
+        font-size: 24px;
+    }
+
+}
+
+
+
+/*footer*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+ }   
+ 
+ 
+  html {
+    scroll-behavior: smooth;
+  }

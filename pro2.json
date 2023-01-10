@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 250,
+  "title": {
+    "text": "Financing For the Top 16 Upstream Oil and Gas Expanders",
+    "fontSize": 15,
+    "subtitle": "Total Fundng Given by World Top Banks to Top 16 Oil and Gas Companies. Source: https://www.bankingonclimatechaos.org",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 11,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/week9.2%20(Banks%20and%20thier%20fossilfuel%20investors%20).csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "aggregate": "count",
+      "field": "Fossil Fuel Financing",
+      "type":  "quantitative",
+      "title": null
+    },
+    "y": {"field": "Company", "title": "Oil and Gas Companies"},
+    "tooltip": [
+      {"field": "Bank", "type": "nominal", "title": "Name of Bank"},
+      {"field": "Company", "type": "nominal", "title": "Financing Companies"},
+      {
+        "field": "Fossil Fuel Financing",
+        "type": "nominal",
+        "title": "Accumulated Fossil Fuel Financing (2016-2021)"
+      }
+    ],
+    "color": {"field": "Bank", "title": "Top10 Banks Worldwide"}
+  },
+  "config": {}
+}

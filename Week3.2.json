@@ -1,0 +1,633 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "title": {
+    "text": "GDP per capita on Asian Countries",
+    "subtitle": "Gross domestic product (GDP) per capita in current USD$, 2010-2021, Source: The World Bank",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "color": "black"
+  },
+  "width": 250,
+  "height": 150,
+  "data": {
+    "values": [
+      {
+        "Country Name": "China",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 4550.453108
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 5614.352135
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 6300.615118
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 7020.338485
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 7636.116601
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 8016.431435
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 8094.363367
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 8816.986905
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 9905.342004
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 10143.8382
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 10408.66976
+      },
+      {
+        "Country Name": "China",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 12556.33312
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 6394.198705
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 7392.452361
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 8101.829092
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 8264.126896
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 8164.714495
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 6228.426299
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 5938.463856
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 6450.319585
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 6782.03792
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 6438.060183
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 5307.215228
+      },
+      {
+        "Country Name": "Colombia",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 6104.136709
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 32549.99823
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 35142.48793
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 36730.8767
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 38403.77771
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 40315.28556
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 42431.88828
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 43733.91636
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 46160.42979
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 48537.56689
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 48356.0635
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 46107.76528
+      },
+      {
+        "Country Name": "Hong Kong ",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 49800.54241
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 3094.44309
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 3613.800902
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 3668.21207
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 3602.885517
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 3476.624853
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 3322.581688
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 3558.818852
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 3839.785069
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 3902.661668
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 4151.227543
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 3894.272202
+      },
+      {
+        "Country Name": "Indonesia",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 4332.709281
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 1350.634322
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 1449.601789
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 1434.018198
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 1438.05748
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 1559.864518
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 1590.173918
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 1714.280355
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 1957.968841
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 1974.377788
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 2047.232704
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 1910.421473
+      },
+      {
+        "Country Name": "India",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 2256.590409
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 4430.426242
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 5736.898959
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 6437.503076
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 6612.902252
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 6215.986033
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 4416.943049
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 4305.202702
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 4725.193573
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 5601.467061
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 5621.181695
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 4332.304125
+      },
+      {
+        "Country Name": "Iraq",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 4775.377454
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 8880.109965
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 10209.38195
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 10601.51389
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 10727.69966
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 11045.44513
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 9699.584021
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 9555.651202
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 9979.800841
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 11074.06409
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 11132.02393
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 10160.78325
+      },
+      {
+        "Country Name": "Malaysia",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 11109.26184
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 47236.96023
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 53890.42873
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 55546.48854
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 56967.42579
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 57562.53079
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 55646.61875
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 56860.41324
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 61150.7272
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 66859.33834
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 65831.18943
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 60729.45035
+      },
+      {
+        "Country Name": "Singapore",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 72794.00302
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 2201.775071
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 2431.202037
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 2671.777205
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 2847.566937
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 2935.925556
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 2974.299531
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 3038.149734
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 3077.43564
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 3194.674521
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 3413.847924
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 3224.422551
+      },
+      {
+        "Country Name": "Philippines",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 3460.530963
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2010,
+        "GDP per capita (current US$)": 4996.372886
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2011,
+        "GDP per capita (current US$)": 5396.649426
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2012,
+        "GDP per capita (current US$)": 5748.631241
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2013,
+        "GDP per capita (current US$)": 6041.12746
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2014,
+        "GDP per capita (current US$)": 5822.383699
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2015,
+        "GDP per capita (current US$)": 5708.796925
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2016,
+        "GDP per capita (current US$)": 5854.461088
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2017,
+        "GDP per capita (current US$)": 6436.791746
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2018,
+        "GDP per capita (current US$)": 7124.564544
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2019,
+        "GDP per capita (current US$)": 7630.03961
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2020,
+        "GDP per capita (current US$)": 6990.935503
+      },
+      {
+        "Country Name": "Thailand",
+        "Year ": 2021,
+        "GDP per capita (current US$)": 7066.190546
+      }
+    ]
+  },
+  "mark": "circle",
+  "encoding": {
+    "x": {"field": "Year ", "type": "nominal"},
+    "y": {"field": "GDP per capita (current US$)", "type": "quantitative"},
+    "color": {"field": "Country Name"},
+    "tooltip": [
+      {"field": "Year ", "type": "ordinal", "title": "Year "},
+      {
+        "field": "GDP per capita (current US$)",
+        "type": "nominal",
+        "title": "GDP per capita (current US$)"
+      }
+    ]
+  },
+  "config": {}
+}
+

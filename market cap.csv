@@ -1,0 +1,450 @@
+Bank,Symbol,marketcap,price (USD),country
+JPMorgan Chase,JPM,404605599744.00,137.94,United States
+Bank of America,BAC,276051820544.00,34.41,United States
+ICBC,1398.HK,214973983579.00,0.53,China
+Wells Fargo,WFC,163088973824.00,42.80,United States
+China Construction Bank,601939.SS,161346126586.00,0.82,China
+Charles Schwab,SCHW,157814194176.00,84.54,United States
+Morgan Stanley,MS,147986022400.00,87.56,United States
+Agricultural Bank of China,601288.SS,146208396502.00,0.42,China
+CM Bank,3968.HK,142168923819.00,5.87,China
+HSBC,HSBC,137022816256.00,34.31,United Kingdom
+Royal Bank Of Canada,RY,135095091200.00,96.98,Canada
+Bank of China,601988.SS,129290211423.00,0.47,China
+HDFC Bank,HDB,125291208704.00,67.40,India
+Goldman Sachs,GS,117872066560.00,348.08,United States
+Toronto Dominion Bank,TD,117809094656.00,64.24,Canada
+Commonwealth Bank,CBA.AX,117654700249.00,69.68,Australia
+Citigroup,C,91632377856.00,47.31,United States
+Mitsubishi UFJ Financial,MUFG,89732816896.00,6.94,Japan
+Al Rajhi Bank,1120.SR,80617672656.00,20.15,Saudi Arabia
+BNP Paribas,BNP.PA,76772676083.00,62.23,France
+ICICI Bank,IBN,74440327168.00,21.27,India
+U.S. Bancorp,USB,70865420288.00,46.31,United States
+Bank of Montreal,BMO,67449073664.00,95.13,Canada
+PNC Financial Services,PNC,66229018624.00,164.21,United States
+DBS Group,D05.SI,65962545605.00,25.63,Singapore
+Bank Central Asia,BBCA.JK,65571811249.00,0.53,Indonesia
+State Bank of India,SBIN.NS,64938788610.00,7.28,India
+UBS,UBS,63422840832.00,19.89,Switzerland
+National Australia Bank,NAB.AX,63364084582.00,20.10,Australia
+Postal Savings Bank of China,601658.SS,63121231777.00,0.69,China
+Truist Financial,TFC,60845674496.00,45.86,United States
+Scotiabank,BNS,60048470016.00,49.98,Canada
+The Saudi National Bank,1180.SR,58727641014.00,13.23,Saudi Arabia
+Housing Development Finance Corporation,HDFC.NS,57448941620.00,31.45,India
+Sumitomo Mitsui Financial Group,SMFG,55323672576.00,8.13,Japan
+Westpac Banking,WBC.AX,55250259595.00,15.80,Australia
+Industrial Bank,601166.SS,54653318549.00,2.63,China
+Santander,SAN,54504001536.00,3.20,Spain
+First Abu Dhabi Bank,FAB.AE,50232828330.00,4.55,United Arab Emirates
+Bank of Communications,601328.SS,48561423479.00,0.70,China
+ING,ING,48212561920.00,13.06,Netherlands
+ANZ Bank,ANZ.AX,47870566031.00,15.99,Australia
+Bank Rakyat Indonesia,BYRA.F,47519521044.00,0.29,Indonesia
+Itaú Unibanco,ITUB,46295019520.00,4.78,Brazil
+Intesa Sanpaolo,ISP.MI,45098922182.00,2.35,Italy
+Macquarie,MQG.AX,45014030032.00,116.47,Australia
+Kotak Mahindra Bank,KOTAKBANK.NS,42990086896.00,21.65,India
+Banco Santander Brasil,BSBR,42065993728.00,5.64,Brazil
+OCBC Bank,O39.SI,41779038584.00,9.29,Singapore
+CITIC Securities,600030.SS,41690983591.00,2.97,China
+Ping An Bank,000001.SZ,41237537340.00,2.13,China
+Nordea Bank,NDA-FI.HE,40751396387.00,11.20,Finland
+Banco Bilbao Vizcaya Argentaria,BBVA,40023654400.00,6.60,Spain
+Lloyds Banking Group,LYG,39363477504.00,2.34,United Kingdom
+Bank of New York Mellon,BK,38757027840.00,47.95,United States
+CIBC,CM,38435614720.00,42.07,Canada
+UOB,U11.SI,38400604548.00,22.93,Singapore
+Bank of China (Hong Kong),2388.HK,37348721555.00,3.53,Hong Kong
+Capital One,COF,37051523072.00,97.07,United States
+Mizuho Financial Group,MFG,37001072640.00,2.92,Japan
+Axis Bank,AXISBANK.BO,34845149813.00,11.39,India
+Barclays,BCS,33560395776.00,8.46,United Kingdom
+Crédit Agricole,ACA.PA,33479532297.00,11.07,France
+NatWest Group,NWG,32981587968.00,6.82,United Kingdom
+Hang Seng Bank,0011.HK,32202091343.00,16.84,Hong Kong
+CITIC Bank,601998.SS,31752806400.00,0.73,China
+Japan Post Bank,7182.T,31742795776.00,8.47,Japan
+Shanghai Pudong Development Bank,600000.SS,31314703479.00,1.07,China
+CaixaBank,CABK.MC,30694122923.00,4.09,Spain
+Banco Bradesco,BBD,30483308544.00,2.86,Brazil
+UniCredit,UCG.MI,29976512175.00,15.49,Italy
+State Street Corporation,STT,29604718592.00,80.68,United States
+Bank Mandiri,PPERF,28329019392.00,0.61,Indonesia
+Maybank,MLYBY,26631626752.00,4.32,Malaysia
+M&T Bank,MTB,25924745216.00,150.19,United States
+Deutsche Bank,DB,25754406912.00,12.44,Germany
+Riyad Bank,1010.SR,24520767250.00,8.17,Saudi Arabia
+Standard Chartered,STAN.L,24065437133.00,8.31,United Kingdom
+Fubon Financial,2881.TW,23617210989.00,1.91,Taiwan
+Fifth Third Bank,FITB,23552075776.00,34.47,United States
+National Bank of Canada,NA.TO,23305529554.00,69.21,Canada
+First Republic Bank,FRC,23145498624.00,126.53,United States
+China Everbright Bank,601818.SS,22450916614.00,0.45,China
+The Saudi British Bank,1060.SR,21472446841.00,10.45,Saudi Arabia
+Société Générale,GLE.PA,21345999107.00,26.86,France
+Huntington Bancshares,HBAN,21063858176.00,14.60,United States
+FirstRand,FSRA.F,20652753910.00,3.64,South Africa
+Citizens Financial Group,CFG,20507324416.00,41.64,United States
+Swedbank,SWED-A.ST,19257432177.00,17.15,Sweden
+ORIX,IX,19169931264.00,80.79,Japan
+Banco do Brasil,BZLA.F,19078346903.00,6.69,Brazil
+Danske Bank,DANS.VI,17496371480.00,20.57,Denmark
+Cathay Financial Holding,2882.TW,17480573263.00,1.33,Taiwan
+KB Financial Group,KB,17432119296.00,45.14,South Korea
+Alinma Bank,1150.SR,17358891621.00,8.68,Saudi Arabia
+KeyCorp (KeyBank),KEY,17138659328.00,18.37,United States
+Abu Dhabi Commercial Bank (ADCB),ADCB.AE,16991857113.00,2.44,United Arab Emirates
+Nu Holdings,NU,16680592384.00,3.56,Brazil
+Guotai Junan Securities,601211.SS,16518583367.00,1.98,China
+Bank of Jiangsu,600919.SS,16250963349.00,1.10,China
+Bank of Nanjing,601009.SS,16177066270.00,1.56,China
+Standard Bank Group,SBK.JO,15999899900.00,9.71,South Africa
+SVB Financial Group,SIVB,14527196160.00,245.79,United States
+CTBC Financial Holding,2891.TW,14415552226.00,0.74,Taiwan
+MFHC,2886.TW,14051944065.00,1.01,Taiwan
+Erste Group Bank,EBO.F,13969232697.00,34.08,Austria
+Shinkin Central Bank,8421.T,13908886148.00,2073.41,Japan
+Bank of Beijing,601169.SS,13152913265.00,0.62,China
+Credit Suisse,CS,12993916928.00,3.28,Switzerland
+Resona Holdings,8308.T,12879593391.00,5.39,Japan
+Banque Saudi Fransi,1050.SR,12871000605.00,10.73,Saudi Arabia
+Arab National Bank,1080.SR,12779552716.00,8.52,Saudi Arabia
+Capitec Bank,CPI.JO,12657517100.00,109.02,South Africa
+Julius Bär,BAER.SW,12583776535.00,60.32,Switzerland
+Commerzbank,CBK.F,12526636850.00,10.00,Germany
+Bank Leumi,LUMI.TA,12488973539.00,8.48,Israel
+BDO Unibank,BDOUY,12418082816.00,23.59,Philippines
+Bank of Shanghai,601229.SS,12306966623.00,0.87,China
+Bank Hapoalim,POLI.TA,12208490023.00,9.14,Israel
+Hua Xia Bank,600015.SS,12144364949.00,0.76,China
+Taiwan Cooperative Financial,5880.TW,11999936981.00,0.86,Taiwan
+Bank Albilad,1140.SR,11714590535.00,11.71,Saudi Arabia
+Credicorp,BAP,11611817984.00,146.00,Bermuda
+Bank of Baroda,BANKBARODA.NS,11501852639.00,2.22,India
+First Financial Holding,2892.TW,11413220815.00,0.86,Taiwan
+CIMB Group,1023.KL,11286804025.00,1.29,Malaysia
+SCB (Siam Commercial Bank),SCB.BK,11190688346.00,3.32,Thailand
+E.SUN Bank,2884.TW,11158517724.00,0.78,Taiwan
+IndusInd Bank,INDUSINDBK.NS,11102182899.00,14.32,India
+Bank Negara Indonesia,BBNI.JK,10738291292.00,0.57,Indonesia
+Kasikornbank,KBANK.BK,10661984376.00,4.50,Thailand
+Banco de Chile,BCH,10437527552.00,19.85,Chile
+Suncorp,SUN.AX,10235984056.00,8.10,Australia
+KakaoBank,323410.KS,10175869236.00,21.35,South Korea
+Hua Nan Financial Holdings,2880.TW,10131047771.00,0.74,Taiwan
+(HLBank) Hong Leong Bank,5819.KL,9726456878.00,4.66,Malaysia
+East West Bancorp,EWBC,9633727488.00,68.35,United States
+PKO Bank Polski,P9O.F,9238787180.00,7.39,Poland
+Abu Dhabi Islamic Bank (ADIB),ADIB.AE,8998910913.00,2.48,United Arab Emirates
+Yuanta Financial Holding,2885.TW,8937537127.00,0.71,Taiwan
+Bangkok Bank,BBL.BK,8814349131.00,4.62,Thailand
+China Zheshang Bank,2016.HK,8764679841.00,0.36,China
+Commerce Bancshares,CBSH,8709739520.00,69.50,United States
+Jefferies Financial Group,JEF,8575675904.00,37.45,United States
+QNB Finansbank,QNBFB.IS,8482012404.00,2.53,Turkey
+Mizrahi-Tefahot,MZTF.TA,8342098476.00,32.44,Israel
+Webster Financial,WBS,8328070656.00,47.86,United States
+Mediobanca,MB.MI,8206345487.00,9.75,Italy
+Banco Santander México,BSMX,8151122944.00,6.01,Mexico
+OTP Bank,OTP.F,8087138109.00,28.17,Hungary
+Banque Cantonale Vaudoise,BCVN.SW,7959880903.00,92.70,Switzerland
+Ally,ALLY,7785727488.00,26.07,United States
+Banco Santander-Chile,BSAC,7783214592.00,15.94,Chile
+IDBI Bank,IDBI.NS,7685124398.00,0.71,India
+Punjab National Bank,PNB.NS,7523143738.00,0.68,India
+Sinopac Financial Holdings,2890.TW,7388705576.00,0.55,Taiwan
+Yes Bank,YESBANK.NS,7349598135.00,0.26,India
+Shanghai Commercial and Savings Bank,5876.TW,7131469350.00,1.47,Taiwan
+Indian Overseas Bank,IOB.NS,7087141323.00,0.37,India
+China Development Financial,2883.TW,7050989611.00,0.42,Taiwan
+Canara Bank,CANBK.NS,7042424125.00,3.88,India
+BOK Financial,BOKF,6916442112.00,102.84,United States
+Bancolombia,CIB,6848215040.00,28.48,Colombia
+Western Alliance Bancorporation,WAL,6756900352.00,62.04,United States
+Union Bank of India,UNIONBANK.NS,6690020841.00,0.98,India
+Türkiye Is Bankasi,ISCTR.IS,6650042716.00,0.64,Turkey
+Santander Polska,BZI.F,6630938522.00,64.33,Poland
+Bankinter,BKT.MC,6425879234.00,7.15,Spain
+Industrial Bank of Korea (IBK),024110.KS,6384264580.00,8.01,South Korea
+Banca Mediolanum,BMED.MI,6347460434.00,8.56,Italy
+Daiwa Securities Group,8601.T,6342767710.00,4.37,Japan
+GarantiBank,GARAN.IS,6317812470.00,1.50,Turkey
+South State Corp,SSB,6058675712.00,80.04,United States
+Chang Hwa Commercial Bank,2801.TW,6003547004.00,0.57,Taiwan
+Taishin Financial Holdings,2887.TW,5986465551.00,0.50,Taiwan
+Nedbank,NED.JO,5940899400.00,12.17,South Africa
+Raiffeisen Bank International,RAW.F,5908156563.00,17.78,Austria
+Banco BPM,BAMI.MI,5784543980.00,3.83,Italy
+Banco Sabadell,BDSB.F,5705127917.00,1.02,Spain
+Bank Pekao (Bank Polska Kasa Opieki),PEO.WA,5574939478.00,21.24,Poland
+Komerční banka,KONN.F,5567453931.00,29.48,Czech Republic
+Commercial International Bank,CIN.F,5565513312.00,1.21,Egypt
+Glacier Bancorp,GBCI,5475212800.00,49.43,United States
+United Bankshares,UBSI,5436184064.00,40.37,United States
+Chongqing Rural Commercial Bank,3618.HK,5429486507.00,0.35,China
+AU Small Finance Bank,AUBANK.NS,5052856905.00,7.58,India
+Banco de Crédito e Inversiones,BCI.SN,4952013453.00,29.10,Chile
+Discovery Limited,DSY.JO,4947674700.00,7.53,South Africa
+Yapı Kredi,YKBNK.IS,4840319029.00,0.57,Turkey
+F.N.B. Corporation,FNB,4825916928.00,13.39,United States
+Saudi Investment Bank,1030.SR,4792331996.00,4.79,Saudi Arabia
+Bandhan Bank,BANDHANBNK.NS,4742953022.00,2.94,India
+Bank of India,BANKINDIA.NS,4645522720.00,1.13,India
+BAWAG Group,0B2.F,4607943938.00,55.85,Austria
+Cadence Bancorp,CADE,4541055488.00,24.89,United States
+IDFC FIRST Bank,IDFCFIRSTB.NS,4495361057.00,0.72,India
+Shin Kong Financial Holding,2888.TW,4479363227.00,0.29,Taiwan
+Jyske Bank,JYSK.CO,4457200929.00,69.37,Denmark
+Indian Bank,INDIANB.NS,4427416716.00,3.55,India
+Metropolitan Bank (Metrobank),MTPOF,4376207872.00,0.94,Philippines
+Bank AlJazira,1020.SR,4196059468.00,5.12,Saudi Arabia
+Bank Mega,MEGA.JK,4195657391.00,0.35,Indonesia
+VakıfBank,VAKBN.IS,4162127981.00,0.59,Turkey
+TMBThanachart Bank (ttb),TTB.BK,4127216339.00,0.04,Thailand
+First International Bank of Israel,FIBI.TA,4106248376.00,40.93,Israel
+First Interstate BancSystem,FIBK,4104806400.00,39.30,United States
+UMB Financial,UMBF,4082389248.00,84.50,United States
+Chiba Bank,CHBAY,4035131136.00,27.30,Japan
+Banco del Bajío,BBAJIOO.MX,3968074759.00,3.33,Mexico
+United Community Bank,UCBI,3906844672.00,33.99,United States
+Oberbank,OBS.VI,3808147972.00,107.92,Austria
+Luzerner Kantonalbank,LUKN.SW,3797169662.00,444.26,Switzerland
+PBBank (Public Bank Bhd),1295.KL,3786638041.00,0.98,Malaysia
+Umpqua Holdings,UMPQ,3768040192.00,17.36,United States
+Bendigo and Adelaide Bank,BEN.AX,3755774100.00,6.62,Australia
+ServisFirst Bancshares,SFBS,3733172736.00,68.72,United States
+Independent Bank,INDB,3723034368.00,81.57,United States
+CVB Financial,CVBF,3517569280.00,25.16,United States
+Federal Bank,FEDERALBNK.NS,3447083133.00,1.63,India
+Taiwan Business Bank,2834.TW,3386785775.00,0.42,Taiwan
+Bank of East Asia,0023.HK,3371232745.00,1.26,Hong Kong
+Unicaja Banco,UNI.MC,3368239276.00,1.27,Spain
+Halkbank,HALKB.IS,3231467195.00,0.65,Turkey
+Virgin Money UK,VMUK.L,3213587190.00,2.34,United Kingdom
+mBank,MBK.WA,3208299288.00,75.63,Poland
+Eastern Bankshares,EBC,3204700672.00,17.93,United States
+St. Galler Kantonalbank,SGKN.SW,3097120468.00,517.95,Switzerland
+Texas Capital Bancshares,TCBI,3070796800.00,61.54,United States
+EFG International,EFGN.SW,2888209727.00,9.33,Switzerland
+Fulton Financial,FULT,2865822464.00,17.11,United States
+WSFS Financial,WSFS,2829913600.00,45.95,United States
+BancFirst,BANF,2798602752.00,85.14,United States
+Bank Jago,ARTO.JK,2740488454.00,0.20,Indonesia
+Atlantic Union Bankshares,AUB,2729958400.00,36.54,United States
+Punjab &amp; Sind Bank,PSB.NS,2619221503.00,0.39,India
+First Merchants Corporation,FRME,2541536000.00,42.67,United States
+Cembra Money Bank,CMBN.SW,2539033196.00,84.63,Switzerland
+Bank of Maharashtra,MAHABANK.NS,2503105645.00,0.37,India
+Piper Sandler,PIPR,2464342272.00,138.19,United States
+Independent Bank Group,IBTX,2422336512.00,58.80,United States
+First Financial Bank,FFBC,2417461504.00,25.49,United States
+Permata Bank,BNLI.JK,2341906734.00,0.06,Indonesia
+Axos Financial,AX,2338172672.00,38.97,United States
+Columbia Bank,COLB,2321632768.00,29.52,United States
+Park National Corp,PRK,2319840000.00,142.64,United States
+TowneBank,TOWN,2242722048.00,30.79,United States
+WesBanco,WSBC,2240230144.00,37.87,United States
+Berner Kantonalbank,BEKN.SW,2209607142.00,239.22,Switzerland
+Banner Bank,BANR,2176219136.00,63.65,United States
+Itaú CorpBanca,ITCB,2149560832.00,3.29,Chile
+Trustmark,TRMK,2137653248.00,35.07,United States
+Aareal Bank,ARL.F,2074646182.00,34.66,Germany
+Renasant Corp,RNST,2067467136.00,36.95,United States
+Close Brothers Group,CBG.L,2013520854.00,13.39,United Kingdom
+Heartland Financial USA,HTLF,1988114432.00,46.84,United States
+Seacoast Banking,SBCF,1961093888.00,31.90,United States
+Lakeland Financial Corp,LKFN,1866781312.00,73.64,United States
+Enterprise Financial Services Corp,EFSC,1855209216.00,49.84,United States
+Stock Yards Bancorp,SYBT,1842089984.00,62.96,United States
+NBT Bancorp,NBTB,1834404480.00,42.82,United States
+Northwest Bank,NWBI,1801959680.00,14.19,United States
+Canadian Western Bank,CWB.TO,1788913293.00,18.97,Canada
+FB Financial,FBK,1740633728.00,37.09,United States
+MONETA Money Bank,MM0.F,1715434626.00,3.34,Czech Republic
+Bank Danamon,BDMN.JK,1690574921.00,0.17,Indonesia
+First Bancorp,FBNC,1677741056.00,41.46,United States
+TriCo Bancshares,TCBK,1660694400.00,49.83,United States
+The Bancorp,TBBK,1657055360.00,29.60,United States
+National Bank Holdings,NBHC,1649213312.00,43.25,United States
+Provident Financial Services,PFS,1641741312.00,21.81,United States
+EQB (Equitable Bank),EQB.TO,1609501932.00,42.90,Canada
+City Union Bank,CUB.NS,1572612188.00,2.12,India
+Hope Bancorp,HOPE,1572383104.00,13.16,United States
+Sandy Spring Bank,SASR,1571925760.00,35.21,United States
+Stellar Bancorp,STEL,1521340160.00,29.09,United States
+Bank of N. T. Butterfield & Son,NTB,1509016448.00,30.40,Bermuda
+Veritex Holdings,VBTX,1508362496.00,27.93,United States
+First National of Nebraska,FINN,1506352128.00,13305.00,United States
+Triumph Bancorp,TBK,1488671360.00,58.74,United States
+Guaranty Trust Bank,9JO.F,1459777600.00,2.48,Nigeria
+Eagle Bancorp,EGBN,1443044352.00,45.21,United States
+Bank Islam Malaysia,BIMB.KL,1389975849.00,0.78,Malaysia
+Live Oak Bank,LOB,1386748416.00,31.35,United States
+Berkshire Hills Bancorp,BHLB,1386322816.00,30.79,United States
+City Holding Company,CHCO,1370883968.00,92.28,United States
+First Busey,BUSE,1368658944.00,24.78,United States
+S&amp;T Bancorp,STBA,1349521024.00,34.60,United States
+OFG Bancorp,OFG,1344614528.00,28.27,United States
+Bank für Tirol und Vorarlberg,BTS.VI,1343722384.00,39.38,Austria
+SpareBank 1,SPOL.OL,1339968514.00,11.57,Norway
+RBL Bank,RBLBANK.NS,1337120363.00,2.23,India
+First Commonwealth Financial Corp,FCF,1327811072.00,14.22,United States
+1st Source,SRCE,1327050496.00,53.82,United States
+Meta Financial Group,CASH,1296947456.00,45.56,United States
+OceanFirst Financial,OCFC,1292241792.00,21.85,United States
+Dime Community Bancshares,DCOM,1255188224.00,32.54,United States
+Capitol Federal Savings Bank,CFFN,1217412480.00,8.88,United States
+Lakeland Bancorp,LBAI,1165924736.00,17.99,United States
+Nicolet Bankshares,NIC,1164465152.00,79.34,United States
+Banco de Brasília,BSLI3.SA,1160301971.00,3.35,Brazil
+Southside Bancshares,SBSI,1157706368.00,36.06,United States
+ACLEDA Bank,ABC.KH,1143010467.00,2.64,Cambodia
+Origin Bancorp,OBNK,1122062336.00,36.58,United States
+Tompkins Financial,TMP,1120032256.00,77.33,United States
+Deutsche Pfandbriefbank,PBB.DE,1107174732.00,8.23,Germany
+German American Bancorp,GABC,1106575744.00,37.53,United States
+Laurentian Bank of Canada,LB.TO,1085796166.00,25.06,Canada
+Cowen,COWN,1084153472.00,38.70,United States
+Dah Sing Banking Group,2356.HK,1077733820.00,0.77,Hong Kong
+Brookline Bancorp,BRKL,1071976576.00,13.95,United States
+Karur Vysya Bank,KARURVYSYA.NS,1067129706.00,1.33,India
+Merchants Bancorp,MBIN,1060065088.00,24.59,United States
+Heritage Financial,HFWA,1050506880.00,29.72,United States
+Preferred Bank,PFBC,1049231488.00,73.08,United States
+Banc of California,BANC,1015485568.00,16.88,United States
+ConnectOne Bancorp,CNOB,987356416.00,25.16,United States
+Premier Financial,PFC,985189312.00,27.70,United States
+Van Lanschot Kempen,VLK.AS,968252550.00,24.06,Netherlands
+Amerant Bancorp,AMTB,919674176.00,27.23,United States
+Customers Bancorp,CUBI,899701120.00,27.67,United States
+QCR Holdings,QCRH,842531584.00,49.90,United States
+First Foundation,FFWM,841304512.00,14.92,United States
+Community Trust Bancorp,CTBI,840905856.00,46.93,United States
+Allegiance Bancshares,ABTX,830943168.00,41.63,United States
+Washington Trust Bancorp,WASH,830181056.00,48.32,United States
+Inter &amp; Co,INTR,826389568.00,2.06,Brazil
+Republic Bank,RBCAA,820479552.00,41.55,United States
+Bank First,BFC,816943040.00,90.48,United States
+Peoples Bancorp,PEBO,808564928.00,28.60,United States
+Dah Sing Financial,0440.HK,807414518.00,2.53,Hong Kong
+Aktia Bank,AKTIA.HE,797692685.00,11.05,Finland
+Heritage Commerce,HTBK,793597312.00,13.07,United States
+Old Second Bancorp,OSBC,758649472.00,17.02,United States
+Northfield Bancorp,NFBK,753820032.00,15.78,United States
+Hanmi Financial,HAFC,751482368.00,24.65,United States
+Amalgamated Financial,AMAL,740122560.00,24.13,United States
+The First Bancshares,FBMS,724681472.00,30.16,United States
+TrustCo Bank,TRST,722825280.00,37.94,United States
+Banco Latinoamericano de Comercio Exterior,BLX,720568384.00,16.10,Panama
+HarborOne Bancorp,HONE,694049728.00,14.11,United States
+Kearny Financial,KRNY,687164544.00,10.17,United States
+Horizon Bancorp,HBNC,686702464.00,15.63,United States
+First Mid-Illinois Bancshares,FMBH,661987712.00,32.35,United States
+Metropolitan Bank Holding,MCB,652426368.00,58.23,United States
+Peapack-Gladstone Financial,PGC,648553728.00,36.19,United States
+Camden National Bank,CAC,616407744.00,42.32,United States
+Hingham Institution for Savings,HIFS,612275712.00,285.39,United States
+Flushing Financial Corp,FFIC,590745024.00,19.82,United States
+HBT Financial,HBT,580802560.00,20.20,United States
+Central Pacific Financial,CPF,579939584.00,20.94,United States
+Karnataka Bank,KTKBANK.NS,566838627.00,1.82,India
+Luther Burbank,LBC,562842112.00,11.02,United States
+Arrow Financial,AROW,555364288.00,33.60,United States
+Capital City Bank Group,CCBG,547357312.00,32.27,United States
+Mercantile Bank,MBWM,542941376.00,34.22,United States
+MetroCity Bankshares,MCBS,538824384.00,21.29,United States
+Bank of Marin Bancorp,BMRC,524455808.00,32.72,United States
+HomeStreet Bank,HMST,521986080.00,27.88,United States
+Equity BancShares,EQBK,518944544.00,32.56,United States
+CSB Bank,CSBBANK.NS,512484405.00,2.95,India
+MidWestOne Financial Group,MOFG,503232928.00,32.21,United States
+CNB Financial Corp,CCNE,500551136.00,23.70,United States
+Oppenheimer Holdings,OPY,497147744.00,45.33,United States
+South Indian Bank,SOUTHBANK.NS,488022083.00,0.23,India
+Bridgewater Bancshares,BWB,486705216.00,17.64,United States
+Bar Harbor Bankshares,BHB,481044608.00,31.93,United States
+Five Star Bancorp,FSBC,470804864.00,27.30,United States
+Greene County Bancorp,GCBC,462959232.00,54.38,United States
+Alerus Financial,ALRS,459308160.00,22.98,United States
+Enterprise Bancorp,EBTC,439498624.00,36.25,United States
+Southern Missouri Bancorp,SMBC,430078368.00,46.60,United States
+Guaranty Bancshares,GNTY,419676960.00,35.15,United States
+RBB Bancorp,RBB,397333536.00,20.95,United States
+CapStar Financial,CSTR,396438720.00,18.09,United States
+Grupo Supervielle,SUPV,392261056.00,2.37,Argentina
+Professional Holding,PFHD,391223808.00,28.32,United States
+Bank Mayapada Internasional,MAYA.JK,390520775.00,0.03,Indonesia
+Silvergate Capital,SI,387501248.00,12.24,United States
+American National Bank &amp; Trust Company,AMNB,383792608.00,36.17,United States
+Macatawa Bank,MCBC,380133952.00,11.10,United States
+Financial Institutions,FISI,376627584.00,24.56,United States
+HomeTrust Bancshares,HTBI,374915712.00,23.99,United States
+Farmers &amp; Merchants Bancorp,FMAO,373095712.00,27.42,United States
+Penseco Financial Services,PFIS,362735744.00,50.66,United States
+Citizens &amp; Northern Corp,CZNC,360384288.00,23.25,United States
+Southern First Bancshares,SFST,356521440.00,44.58,United States
+Red River Bancshares,RRBI,354167264.00,49.30,United States
+Civista Bancshares,CIVB,350091936.00,22.26,United States
+Shore Bancshares,SHBI,348034816.00,17.52,United States
+Home Bancorp,HBCP,332755904.00,40.18,United States
+ACNB Corporation,ACNB,328502976.00,38.60,United States
+First Bancorp,FNLC,327947424.00,29.70,United States
+Sierra Bancorp,BSRR,321859040.00,21.33,United States
+Northeast Bank,NBN,310850304.00,41.74,United States
+Northrim BanCorp,NRIM,309824320.00,54.50,United States
+BCB Bancorp,BCBP,307594208.00,18.21,United States
+Sterling Bancorp,SBT,305308000.00,6.01,United States
+PCSB Financial,PCSB,291965088.00,19.04,United States
+MVB Financial,MVBF,287518656.00,22.79,United States
+Timberland Bancorp,TSBK,280739872.00,34.07,United States
+Unity Bancorp,UNTY,280504992.00,26.60,United States
+Addiko Bank,ZYE1.F,259712579.00,13.16,Austria
+First Western Financial,MYFW,259701392.00,27.36,United States
+First Guaranty Bancshares,FGBI,258060544.00,24.08,United States
+Third Coast Bancshares,TCBX,252636848.00,18.67,United States
+Parke Bancorp,PKBK,248466992.00,20.84,United States
+Orrstown Financial Services,ORRF,247506768.00,23.18,United States
+BayCom (United Business Bank),BCML,246588944.00,18.99,United States
+Central Valley Community Bancorp,CVCY,246372000.00,21.00,United States
+Southern States Bancshares,SSBK,244664448.00,28.10,United States
+Bank7,BSVN,242114048.00,26.56,United States
+Ponce Financial Group,PDLB,241597456.00,9.77,United States
+Territorial Bancorp,TBNK,227841744.00,25.00,United States
+Codorus Valley Bancorp,CVLY,226444032.00,23.70,United States
+Absa Bank,ABSP.JO,221812300.00,49.48,South Africa
+Bankwell Financial Group,BWFG,220746736.00,28.63,United States
+Middlefield Banc,MBCN,219231488.00,27.60,United States
+Greenhill,GHL,218687536.00,12.14,United States
+ESSA Bancorp,ESSA,215531504.00,20.72,United States
+Plumas Bancorp,PLBC,215171088.00,36.78,United States
+Investar Holding,ISTR,215126640.00,21.75,United States
+Ames National Corp.,ATLO,214463264.00,23.85,United States
+Western New England Bancorp,WNEB,211780800.00,9.55,United States
+Evans Bancorp,EVBN,211294560.00,38.32,United States
+VersaBank,VBNK,205931536.00,7.55,Canada
+C&amp;F Financial Corporation,CFFI,205179024.00,58.99,United States
+MainStreet Bancshares,MNSB,199857904.00,26.88,United States
+Penns Woods Bancorp,PWOD,193057632.00,27.36,United States
+Limestone Bancorp,LMST,191583104.00,25.08,United States
+Virginia National Bankshares,VABK,191568624.00,35.96,United States
+Peoples Bancorp of North Carolina,PEBK,183003952.00,32.46,United States
+William Penn Bancorp,WMPN,172722224.00,12.04,United States
+Riverview Bancorp,RVSB,162378608.00,7.55,United States
+Richmond Mutual Bancorporation,RMBI,154163264.00,13.07,United States
+Hawthorn Bancshares,HWBK,152631472.00,22.55,United States
+ECB Bancorp,ECBK,149740080.00,16.32,United States
+Republic First Bancorp,FRBK,145438000.00,2.28,United States
+Hanover Bancorp,HNVR,144048768.00,20.15,United States
+BankFinancial,BFIN,134649328.00,10.42,United States
+Malvern Bancorp,MLVF,134508096.00,17.62,United States
+Malvern Bancorp,MLVF,134508096.00,17.62,United States
+Provident Bancorp,PVBC,131471272.00,7.42,United States
+Old Point Financial,OPOF,126167432.00,25.25,United States
+Ohio Valley Banc Corp,OVBC,125736144.00,26.35,United States
+FinWise Bancorp,FINW,115011080.00,8.95,United States
+Union Bankshares,UNB,106879368.00,23.76,United States
+Provident Financial Holdings,PROV,101845336.00,14.14,United States
+Carver Bancorp,CARV,18739946.00,4.43,United States
+Sberbank,SBER.ME,0.00,1.95,Russia

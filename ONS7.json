@@ -1,0 +1,61 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/data_ONS-YBVI%20.json",
+      "format": {"type": "json", "property": "years"}
+    },
+    "title": {
+      "text": "Unemployed",
+      "subtitle": "UK: Male:Aged 16-17from 1992-2021, Source: ONS",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "color": "black"
+    },
+    "width": 200,
+    "height": 200,
+    "mark": {"type": "line", "color": "rgb(0,47,167"},
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "axis": {"grid": false},
+        "title": ""
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "axis": {"grid": false},
+        "title": "Value ('000)"
+      }
+    },
+
+    "transform": [
+        {"filter": "datum.year>minYear"},
+        {"filter": "datum.year<maxYear"}
+      ],
+      "params": [
+        {
+          "name": "minYear",
+          "value": 2010,
+          "bind": {
+            "input": "range",
+            "min": 1971,
+            "max": 2022,
+            "step": 1,
+            "name": "Start year:"
+          }
+        },
+        {
+          "name": "maxYear",
+          "value": 2022,
+          "bind": {
+            "input": "range",
+            "min": 1971,
+            "max": 2022,
+            "step": 1,
+            "name": "End year:"
+          }
+        }
+      ]
+    }
+    

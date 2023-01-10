@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 260,
+  "width": 250,
+  "title": {
+    "text": "UK Banks' Total Customer and Ethical Company Index Score (2021)  ",
+    "subtitle": "Top leading UK banks by total number of customers and thier ethical rates (Range 0-30) Source: Statista",
+    "fontSize": 13,
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/UK%20banks%20ethical%20rate%20on%20number%20of%20cutomers.json"
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "Number of customers in millions ",
+      "title": "Numbers of customers (millions)",
+      "type": "quantitative",
+      "scale": {"zero": false}
+    },
+    "y": {
+      "field": "Ethical Company Index Score",
+      "title": "Ethical Company Index",
+      "type": "quantitative",
+      "scale": {"zero": false}
+    },
+    "tooltip": [
+      {"field": "Name", "type": "nominal", "title": "Name of Bank"},
+      {
+        "field": "Ethical Company Index Score",
+        "type": "nominal",
+        "title": "Ethical Company Index (Lowest = 0, Highest = 30)"
+      },
+      {
+        "field": "Number of customers in millions ",
+        "type": "nominal",
+        "title": "Total Customers (Millions)"
+      }
+    ],
+    "color": {"field": "Name", "type": "nominal"},
+    "shape": {"field": "Name", "type": "nominal"}
+  },
+  "config": {}
+}

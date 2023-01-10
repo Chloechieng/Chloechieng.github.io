@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/data_ONS-AGOL%20.json",
+      "format": {"type": "json", "property": "years"}
+    },
+    "title": {
+      "text": "Unemployed: Not in full-time education",
+      "subtitle": "UK: Aged 16-24: from 1992-2022: Source: ONS",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "color": "black"
+    },
+    "width": 200,
+    "height": 200,
+    "mark": {"type": "line", "color": "rgb(0,47,167"},
+    "encoding": {
+      "x": {
+        "field": "label",
+        "type": "nominal",
+        "axis": {"grid": false},
+        "title": ""
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "axis": {"grid": false},
+        "title": "Unemployment Rate (%)"
+      }
+    },
+    "transform": [
+      {"filter": "datum.year>minYear"},
+      {"filter": "datum.year<maxYear"}
+    ],
+    "params": [
+      {
+        "name": "minYear",
+        "value": 2010,
+        "bind": {
+          "input": "range",
+          "min": 1971,
+          "max": 2022,
+          "step": 1,
+          "name": "Start year:"
+        }
+      },
+      {
+        "name": "maxYear",
+        "value": 2022,
+        "bind": {
+          "input": "range",
+          "min": 1971,
+          "max": 2022,
+          "step": 1,
+          "name": "End year:"
+        }
+      }
+    ]
+  }
+  
