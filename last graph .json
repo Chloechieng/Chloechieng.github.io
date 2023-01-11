@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 200,
+  "height": 260,
+  "title": {
+    "text": "Will Banks' Performance Be Affected by Their Financing in Fossil Fuel? ",
+    "subtitle": "Evaluating the performance of the Top 4 Banks in the UK (2021) and the Gain and Loss of customer as a result(2022)",
+    "fontSize": 12,
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "#000000",
+    "subtitleColor": "#000000"
+  },
+  "description": "A bubbleplot showing horsepower on x, miles per gallons on y, and binned acceleration on size.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/bankfinancevperformance.json"
+  },
+  "mark": "circle",
+  "encoding": {
+    "color": {
+      "field": "Bank",
+      "type": "nominal",
+      "scale": {"scheme": "viridis"}
+    },
+    "x": {
+      "field": "G/L",
+      "type": "nominal",
+      "title": "Gain and Loss of customer"
+    },
+    "y": {
+      "field": "2021_x",
+      "type": "ordinal",
+      "title": "Bank Financing on Fossil Fuel ($millions) "
+    },
+    "size": {
+      "field": "2021_y",
+      "type": "nominal",
+      "title": "UK Banks' Market Cap (€) "
+    },
+    "tooltip": [
+      {"field": "Bank", "type": "nominal", "title": "Bank"},
+      {
+        "field": "2021_x",
+        "type": "ordinal",
+        "title": "Bank Financing on Fossil Fuel ($)"
+      },
+      {
+        "field": "2021_y",
+        "type": "quantitative",
+        "title": "UK Banks' Market Cap (€)"
+      },
+      {
+        "field": "G/L",
+        "type": "nominal",
+        "title": "Gain(+) or Loss(-) of Customer"
+      }
+    ]
+  },
+  "config": {}
+}

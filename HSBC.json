@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {"text": "HSBC yearly total of Fossil Fuel Funding"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/Chloechieng/Chloechieng.github.io/main/funding.csv"
+  },
+  "transform": [{"filter": "datum.Bank==='HSBC'"}],
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "Years", "type": "temporal"},
+    "y": {"field": "Funding", "type": "nominal"}
+  },
+  "config": {}
+}

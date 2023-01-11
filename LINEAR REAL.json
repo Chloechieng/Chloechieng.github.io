@@ -1,0 +1,375 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Entity": "Romania",
+        "ROE": 15.9,
+        "Unnamed: 2": "in %",
+        "Country Code": "ROU",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 21.65998698,
+        "Code": "ROU",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 25.39
+      },
+      {
+        "Entity": "Hungary",
+        "ROE": 14.7,
+        "Unnamed: 2": "in %",
+        "Country Code": "HUN",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 22.41542181,
+        "Code": "HUN",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 30.47
+      },
+      {
+        "Entity": "Iceland",
+        "ROE": 12.6,
+        "Unnamed: 2": "in %",
+        "Country Code": "ISL",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 26.5786029,
+        "Code": "ISL",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 0
+      },
+      {
+        "Entity": "Sweden",
+        "ROE": 11.8,
+        "Unnamed: 2": "in %",
+        "Country Code": "SWE",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 11.41441509,
+        "Code": "SWE",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 166.37
+      },
+      {
+        "Entity": "Czechia",
+        "ROE": 11.7,
+        "Unnamed: 2": "in %",
+        "Country Code": "CZE",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 17.3343441,
+        "Code": "CZE",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 25.38
+      },
+      {
+        "Entity": "Spain",
+        "ROE": 11.3,
+        "Unnamed: 2": "in %",
+        "Country Code": "ESP",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 37.4201598,
+        "Code": "ESP",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 35.9
+      },
+      {
+        "Entity": "Lithuania",
+        "ROE": 11.2,
+        "Unnamed: 2": "in %",
+        "Country Code": "LTU",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 11.18485774,
+        "Code": "LTU",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 93.62
+      },
+      {
+        "Entity": "Latvia",
+        "ROE": 11.2,
+        "Unnamed: 2": "in %",
+        "Country Code": "LVA",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 6.635280937,
+        "Code": "LVA",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 81.61
+      },
+      {
+        "Entity": "Bulgaria",
+        "ROE": 10.9,
+        "Unnamed: 2": "in %",
+        "Country Code": "BGR",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 61.47244076,
+        "Code": "BGR",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 329.6
+      },
+      {
+        "Entity": "Slovenia",
+        "ROE": 10.9,
+        "Unnamed: 2": "in %",
+        "Country Code": "SVN",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 22.58574336,
+        "Code": "SVN",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 58.97
+      },
+      {
+        "Entity": "Finland",
+        "ROE": 9.4,
+        "Unnamed: 2": "in %",
+        "Country Code": "FIN",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 6.161019529,
+        "Code": "FIN",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 269.05
+      },
+      {
+        "Entity": "Belgium",
+        "ROE": 9,
+        "Unnamed: 2": "in %",
+        "Country Code": "BEL",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 0,
+        "Code": "BEL",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 297.14
+      },
+      {
+        "Entity": "Poland",
+        "ROE": 9,
+        "Unnamed: 2": "in %",
+        "Country Code": "POL",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 23.20772409,
+        "Code": "POL",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 44.44
+      },
+      {
+        "Entity": "Netherlands",
+        "ROE": 8.5,
+        "Unnamed: 2": "in %",
+        "Country Code": "NLD",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 5.449826446,
+        "Code": "NLD",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 19.13
+      },
+      {
+        "Entity": "Denmark",
+        "ROE": 8.4,
+        "Unnamed: 2": "in %",
+        "Country Code": "DNK",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 17.51853161,
+        "Code": "DNK",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 253.92
+      },
+      {
+        "Entity": "Estonia",
+        "ROE": 8.2,
+        "Unnamed: 2": "in %",
+        "Country Code": "EST",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 7.476756745,
+        "Code": "EST",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 29.95
+      },
+      {
+        "Entity": "Croatia",
+        "ROE": 8,
+        "Unnamed: 2": "in %",
+        "Country Code": "HRV",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 26.838159,
+        "Code": "HRV",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 9.4
+      },
+      {
+        "Entity": "Austria",
+        "ROE": 7.9,
+        "Unnamed: 2": "in %",
+        "Country Code": "AUT",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 12.3494261,
+        "Code": "AUT",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 62.03
+      },
+      {
+        "Entity": "Ireland",
+        "ROE": 7.6,
+        "Unnamed: 2": "in %",
+        "Country Code": "IRL",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 16.05516173,
+        "Code": "IRL",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 433.57
+      },
+      {
+        "Entity": "France",
+        "ROE": 7.4,
+        "Unnamed: 2": "in %",
+        "Country Code": "FRA",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 33.27043929,
+        "Code": "FRA",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 138.26
+      },
+      {
+        "Entity": "Luxembourg",
+        "ROE": 6,
+        "Unnamed: 2": "in %",
+        "Country Code": "LUX",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 56.54367953,
+        "Code": "LUX",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 3.65
+      },
+      {
+        "Entity": "Italy",
+        "ROE": 5.7,
+        "Unnamed: 2": "in %",
+        "Country Code": "ITA",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 34.47211942,
+        "Code": "ITA",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 170.42
+      },
+      {
+        "Entity": "Portugal",
+        "ROE": 4.6,
+        "Unnamed: 2": "in %",
+        "Country Code": "PRT",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 30.71106592,
+        "Code": "PRT",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 54.69
+      },
+      {
+        "Entity": "Germany",
+        "ROE": 4.1,
+        "Unnamed: 2": "in %",
+        "Country Code": "DEU",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 0,
+        "Code": "DEU",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 114.83
+      },
+      {
+        "Entity": "Malta",
+        "ROE": 3,
+        "Unnamed: 2": "in %",
+        "Country Code": "MLT",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 23.51185766,
+        "Code": "MLT",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 0
+      },
+      {
+        "Entity": "Cyprus",
+        "ROE": 0.2,
+        "Unnamed: 2": "in %",
+        "Country Code": "CYP",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 28.25979714,
+        "Code": "CYP",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 53.54
+      },
+      {
+        "Entity": "Greece",
+        "ROE": -19.1,
+        "Unnamed: 2": "in %",
+        "Country Code": "GRC",
+        "Indicator Name": "Commercial bank branches (per 100,000 adults)",
+        "Indicator Code": "FB.CBK.BRCH.P5",
+        "Bank branches per 1000000 adults ": 16.77561975,
+        "Code": "GRC",
+        "Year": 2020,
+        "fossil fuel subsidies per capita ": 208.45
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {"type": "point", "filled": true},
+      "encoding": {
+        "x": {"field": "ROE", "type": "quantitative"},
+        "y": {
+          "field": "fossil fuel subsidies per capita ",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "firebrick"},
+      "transform": [
+        {"regression": "fossil fuel subsidies per capita ", "on": "ROE"}
+      ],
+      "encoding": {
+        "x": {"field": "ROE", "type": "quantitative"},
+        "y": {
+          "field": "fossil fuel subsidies per capita ",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "fossil fuel subsidies per capita ",
+          "on": "ROE",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ],
+  "config": {}
+}
